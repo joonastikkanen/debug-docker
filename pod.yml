@@ -1,0 +1,10 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: ubuntu-debug
+  labels:
+    app: ubuntu-debug
+spec:
+  containers:
+    - name: ubuntu-debug
+      image: quay.io/joonast/ubuntu-debug
