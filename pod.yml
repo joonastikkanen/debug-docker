@@ -7,4 +7,4 @@ metadata:
 spec:
   containers:
     - name: ubuntu-debug
-      image: quay.io/joonast/ubuntu-debug
+      image: quay.io/tikimon/ubuntu-debug
